@@ -1,0 +1,144 @@
+
+.contact_content{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.contact_item{
+    width: 45%;
+}
+
+.contact_item h2{
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.inner_content{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contact_num{
+    width: 30%;
+    text-align: center;
+}
+
+.contact_mail{
+    width: 30%;
+    text-align: center;
+}
+
+.contact_address{
+    width: 30%;
+    text-align: center;
+}
+
+.icon{
+    color: var(--primary-color);
+    font-size: 2.6rem;
+    margin-bottom: 10px;
+}
+
+p{
+    color: #fff;
+    font-size: 1rem;
+}
+
+.social_icon{
+    margin-top: 50px;
+    
+}
+
+.social_icon span{
+    background: var(--icon-bg);
+    margin: 0 0.7rem;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.social_icon i{
+    font-size: 3rem;
+    color: var(--primary-color);
+    transition: .3s;
+}
+
+.social_icon i:hover{
+    color: #fff;
+}
+
+.contact_form{
+    width: 45%;
+}
+
+.name i{
+    font-size: 2.5rem;
+    color: var(--primary-color);
+}
+
+.name input{
+    width: 80%;
+    font-size: 1rem;
+    color: red;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid var(--primary-color);
+    outline: none;
+    padding: 5px 15px;
+    margin: 30px 0px;
+}
+
+.contact_form{
+    margin: 20px 0px;
+}
+
+.form_content .hero_btn{
+    justify-content: center;
+}
+
+.google_map{
+    margin: 5rem 0;
+}
+
+
+@media only screen and (max-width:576px){
+    
+    .contact_content{
+        flex-direction: column;
+    }
+
+    .contact_item{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .form_content{
+        width: 100%;
+    }
+
+    .icon{
+        font-size: 1.5rem;
+    }
+
+    p{
+        font-size: 0.7rem;
+    }
+
+    .social_icon i{
+        font-size: 2.2rem;
+    }
+
+    .name i{
+        font-size: 1.9rem;
+    }
+
+    .name input{
+        width: 100%;
+    }
+
+}
